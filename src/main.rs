@@ -17,11 +17,11 @@ use quicli::prelude::*;
 struct Cli {
     // Add a CLI argument `--count`/-n` that defaults to 3, and has this help text:
     /// How many lines to get
-    #[structopt(long = "to", short = "t", default_value = "philippe@metrisolve.com")]
+    #[structopt(long = "to", short = "t", default_value = "myself@gmail.com")]
     destination: String,
-    #[structopt(long = "from", short = "f", default_value = "ulyssessupport@asai.ie")]
+    #[structopt(long = "from", short = "f", default_value = "test@test.com")]
     from: String,
-    #[structopt(long = "user", short = "u", default_value = "ulyssessupport@asai.ie")]
+    #[structopt(long = "user", short = "u", default_value = "test@test.com")]
     username: String,
     #[structopt(long = "password", short = "P", default_value = "password")]
     password: String,
