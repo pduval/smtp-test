@@ -1,0 +1,11 @@
+[package]
+name = "smtp-test"
+version = "0.1.0"
+authors = ["Philippe Duval <philippe@metrisolve.com.com>"]
+
+[dependencies]
+lettre = "0.7"
+lettre_email = "0.7"
+quicli = "0.2"
+mime = "*"
+env_logger = "*"
